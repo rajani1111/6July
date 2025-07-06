@@ -42,7 +42,7 @@ driver.close();
 driver.switchTo().window(tabslist.get(0));
 System.out.println("Back to 1st tab: " + driver.getTitle());
 
-// Step 7: Quit browser
+// Step 7: Quit browser- steps to close current browser
 Thread.sleep(2000);
 driver.quit();
 	}
