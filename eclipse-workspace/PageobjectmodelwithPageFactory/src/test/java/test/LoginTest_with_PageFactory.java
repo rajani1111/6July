@@ -12,10 +12,6 @@ public class LoginTest_with_PageFactory {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		//ChromeOptions options = new ChromeOptions();
-	//	options.addArguments("user-data-dir=/Users/YourUsername/Library/Application Support/Google/Chrome");
-		//WebDriver driver = new ChromeDriver(options);
-
 		System.setProperty("webdriver.chrome.driver", "/Users/laprepos-122/Drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 	
